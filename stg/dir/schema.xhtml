@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+                      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:svg="http://www.w3.org/2000/svg">
+    <head>
+      <title></title>
+      <link rel="stylesheet" type = "text/css" href = "css/schema.css"/>
+	  <script type="text/javascript" src="js/click.js"/>
+    </head>
+    <body>
+		<div>
+			<ul>
+				<li>css</li>
+				<li>div</li>
+				<li>position</li>
+			</ul>
+		</div>
+		<div>
+			<ul>
+				<li>mdn</li>
+				<li>svg</li>
+				<li>circle</li>
+			</ul>
+		</div>		
+		<div>
+
+			<p><a href = "http://fr.learnlayout.com/position.html">http://fr.learnlayout.com/position.html</a></p>
+		</div>
+		<div>
+			<p><a href = "http://fr.learnlayout.com/inline-block.html">http://fr.learnlayout.com/inline-block.html</a></p>			
+		</div>
+        <div class = "widget">
+          <div class = "svg-list"><svg:svg><svg:text x="0" y="35" font-family="Verdana" font-size="35">cercle</svg:text></svg:svg></div>
+		  <div class = "svg-list"><svg:svg><svg:polygon fill="transparent" stroke="black" points="0 0 25 25"/></svg:svg></div>
+		  <div class = "svg-list">
+			<svg:svg>
+				<svg:g>
+					<svg:line/>
+					<svg:circle fill = "lightgreen" stroke = "black" id = "circle1" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+					<svg:text x="45" y="59" font-family="Verdana" font-size="35">XML</svg:text>
+					<svg:line stroke = "black" x1="20"  y1="0" x2="20" y2="40"/>
+					<svg:line stroke = "black" x1="20"  y1="60" x2="20" y2="100"/>
+				</svg:g>
+			</svg:svg>
+		  </div>
+          <div class = "svg-list"><svg:text>XML</svg:text></div>
+		  <div class = "svg-list" id = "hexa"><svg:svg><svg:polygon onclick="doRectClick();" transform="translate(50 50)" fill="solid" stroke="black" points="43 25 0 50 -43 25 -43 -25 0 -50 43 -25"/></svg:svg></div>
+          <div class = "svg-list"><svg:text>flèche</svg:text></div>   
+        </div>
+		<div>
+			<ul>
+				<li>css</li>
+				<li>border</li>
+				<li>mdn</li>
+			</ul>
+		</div>		
+		<div>
+			<p>le problème : afficher du svg dans une box</p>
+			<svg:svg width="40%">				
+				<svg:text x="45" y="59" font-family="Verdana" font-size="25">aaaaaaaaaaaaaaa la boucle en perl</svg:text>				
+			</svg:svg>						
+		</div>
+		<div>
+			<p>le schéma complet</p>			
+			<div class = "svg-line">
+				<div class = "svg-backLog">
+					<svg:svg  width="100%">						
+							<svg:circle id = "circle2" fill = "lightgreen" stroke = "black" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+							<svg:text x="45" y="59" font-family="Verdana" font-size="25">la boucle en perl</svg:text>							
+							<svg:line stroke = "black" x1="20"  y1="60" x2="20" y2="100"/>
+							<svg:line stroke = "black" x1="280"  y1="50" x2="2000" y2="50"/>
+						
+					</svg:svg>
+				</div>			
+				<div class = "svg-backLog">
+					<svg:svg  width="100%">
+						<svg:g>
+							<svg:line/>
+							<svg:circle id = "circle3" fill = "lightgreen" stroke = "black" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+							<svg:text  x="45" y="59" font-family="Verdana" font-size="25">d'autres retour</svg:text>							
+							<svg:line stroke = "black" x1="20"  y1="60" x2="20" y2="100"/>
+						</svg:g>
+					</svg:svg>
+				</div>
+			</div>
+			<div class = "svg-line">
+				<div class = "svg-backLog">
+				<svg:svg width="100%">					
+						<svg:line/>
+						<svg:circle fill = "lightgreen" stroke = "black" id = "circle4" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+						<svg:text x="45" y="59" font-family="Verdana" font-size="25">la transformation sgml</svg:text>
+						<svg:line stroke = "black" x1="20"  y1="0" x2="20" y2="40"/>
+						<svg:line stroke = "black" x1="20"  y1="60" x2="20" y2="100"/>					
+				</svg:svg>
+				</div>
+				<div class = "svg-backLog">
+				<svg:svg width="100%">					
+						<svg:line/>
+						<svg:circle fill = "lightgreen" stroke = "black" id = "circle5" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+						<svg:text x="45" y="59" font-family="Verdana" font-size="25">c'est le programme de déploiement qui va</svg:text>
+						<svg:text x="45" y="89" font-family="Verdana" font-size="25">être en écart</svg:text>
+						<svg:line stroke = "black" x1="20"  y1="0" x2="20" y2="40"/>
+						<svg:line stroke = "black" x1="20"  y1="60" x2="20" y2="100"/>					
+				</svg:svg>
+				</div>
+			</div>
+			<div class = "svg-line">
+				<div class = "svg-backLog">
+					<svg:svg width="100%">						
+							<svg:line/>
+							<svg:circle fill = "lightgreen" stroke = "black" id = "circle6" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+							<svg:text x="45" y="59" font-family="Verdana" font-size="25">la mise en parallèle</svg:text>
+							<svg:line stroke = "black" x1="20"  y1="0" x2="20" y2="40"/>							
+							<svg:line stroke = "black" x1="20"  y1="60" x2="20" y2="100"/>					
+					</svg:svg>
+				</div>
+				
+				<div class = "svg-backLog">
+					<svg:svg width="100%">						
+							<svg:line/>
+							<svg:circle fill = "lightgreen" stroke = "black" id = "circle7" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+							<svg:text x="45" y="59" font-family="Verdana" font-size="25">améliorer la gestion d'erreur</svg:text>
+							<svg:line stroke = "black" x1="20"  y1="0" x2="20" y2="40"/>							
+							<svg:line stroke = "black" x1="20"  y1="60" x2="20" y2="100"/>					
+					</svg:svg>
+				</div>
+			  </div>
+			<div class = "svg-line">
+				<div class = "svg-backLog">
+					<svg:svg width="100%">						
+							<svg:line/>
+							<svg:circle fill = "lightgreen" stroke = "black" id = "circle8" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+							<svg:text x="45" y="59" font-family="Verdana" font-size="25">ajout du répertoire des xslt</svg:text>
+							<svg:line stroke = "black" x1="20"  y1="0" x2="20" y2="40"/>
+					</svg:svg>
+				</div>
+				
+				<div class = "svg-backLog">
+					<svg:svg width="100%">						
+							<svg:line/>
+							<svg:circle fill = "lightgreen" stroke = "black" id = "circle9" onclick="jsClick(this.id);" r = "10" cx = "20" cy = "50"/>
+							<svg:text x="45" y="59" font-family="Verdana" font-size="25">améliorer la ligne de commande</svg:text>
+							<svg:line stroke = "black" x1="20"  y1="0" x2="20" y2="40"/>
+					</svg:svg>
+				</div>
+			  </div>			  
+		  </div>			
+		
+    </body>
+</html>

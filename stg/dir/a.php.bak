@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+	  <link rel="stylesheet" style="text/css" href="schema.css"/>
+	  <script src="click" type="text/javascript" /> 
+	  <title>page</title>
+	</head>
+	
+	<body>
+
+<?php
+		try{
+			$bdd = new PDO('mysql:host=localhost;dbname=basics','root','');
+			$bdd->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		} catch(Exception $e) {
+			die('Erreur : '.$e->getMessage());
+		}
+
+		$reponse = $bdd->query("select * from ARRAY_LIST order by ORD");
+
+		while($donnees = $reponse->fetch()) {
+			echo "<p>" . $donnees['WORD'] . "<p>";
+		}
+?>		
+		
+
+	</body>
+</html>		

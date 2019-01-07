@@ -1,0 +1,13 @@
+.parent {
+/* https://www.alsacreations.com/astuce/lire/1432-display-inline-block-espaces-indesirables.html */
+  display: table;
+}
+
+.inline-block {
+  display: inline-block;	
+  min-width : 200px;
+  min-height : 200px;
+  border : solid 1px;
+}
+
+

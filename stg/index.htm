@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+                      "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>portail</title>
+		<link rel="stylesheet" style="text/css" href="css/index.css"/>
+		<script src="js/click.js" type="text/javascript"></script>
+		<meta charset="utf-8"/>
+    </head>
+    <body class = "parent">
+	<div class = "parent">
+		<div class = "inline-block">
+			<p><a href = "https://outlook.office.com/" target="_blank">Outlook ELS</a></p>
+			<p><a href = "https://bitbucket.org/dashboard/repositories?owner=ext-pdonzel" onclick="jsclick()" target="_blank" >bitbucket</a></p>
+			<button onclick="gotToBitbucket();">bitbucket</button>
+			<p><a href = "http://localhost/dir/generate_schema.php" target="_blank">un schéma</a></p>
+		</div>
+		
+		<div class = "inline-block">
+			<h3>JIRA</h3>
+			<p><a href = "https://jira.els-gestion.eu/secure/RapidBoard.jspa?rapidView=146" target="_blank">Run EFL</a></p>		
+			<p><a href = "https://jira.els-gestion.eu/secure/Dashboard.jspa" target="_blank">tableau de bord</a></p>		
+			<p> aa</p>
+		</div>
+	
+		<div class = "inline-block">
+			<h3>github</h3>
+			<p><a href = "https://github.com/" target="_blank">github</a></p>
+			<p><a href="https://github.com/ortreb74/practice-mariadb/blob/master/straight/named_list.ddl" target="_blank">create table</a></p>
+		</div>
+		
+		<div class = "inline-block">
+			<h3>Asked question</h3>
+			<p><a href = "https://stackoverflow.com/questions/8940230">how can i run an sql text-file on a mysql database</a></p>		
+		</div>
+		
+		<div class = "inline-block">
+			<h3>Procédures</h3>
+			<p><a href = "minimum.htm" target="_blank">lancer la base mariadb</a></p>
+			<p><a href = "quotidien.htm" target="_blank">au rythme des jours</a></p>		
+		</div>
+		
+		<div class = "inline-block">
+			<h3>Markdown / README</h3>
+			<ul>
+				<li>quand on ouvre manuellement l'URL <span>file:/c:/bb/sie-efl-deploy-linux/README.md</span> on obtient rien ! Mais dans un contexte oublié j'ai obtenu</li>
+				<div class = "error">
+					<p>Firefox ne sait pas ouvrir cette adresse car l’un des protocoles suivants (c) n’est associé à aucun programme ou n’est pas autorisé dans ce contexte.</p>
+				</div>		
+				<div class = "code">
+					<p>mkdir -p /c/logiciels/wamp64/www/md/ ; cp /c/bb/sie-efl-deploy-linux/README.md /c/logiciels/wamp64/www/md/sie-efl-deploy-linux-README.md</p>
+				</div>		
+				<li><p><a href = "/md/sie-efl-deploy-linux-README.md" target="_blank">sample</a></p></li>
+				<li><p><a href = "/md/table.md" target="_blank">table</a></p></li>
+			</ul>
+		</div>
+		<div class = "inline-block">
+			<h3>javascript / transform</h3>
+			<ul>
+				<li>le fichier <p><a href = "file:/c:/gh/js-combo/xq-mvn.xhtml" target="_blank">js-combo</a> situé sur le disque dur</p></li>
+				<div class = "weird">
+					<p>pas de réaction, le navigateur refuse d'ouvrir un fichier en local</p>
+				</div>
+				<div class = "code" class = "inline-block">
+					<p>mkdir -p /c/logiciels/wamp64/www/c/gh ; mv js-combo/ /c/logiciels/wamp64/www/c/gh</p>
+				</div>
+				<li><p><a href = "/c/gh/js-combo/xq-mvn.xhtml" target="_blank">js-combo</a></p></li>
+			</ul>			
+		</div>
+		
+		<div class = "inline-block" style="background-color:blue">
+			<h3>html - css - javascript</h3>
+		</div>
+	</div>
+	
+	
+	
+	<form><input type = "text" id = "entre">ceci est à copier</input></form>
+    </body>
+</html>
