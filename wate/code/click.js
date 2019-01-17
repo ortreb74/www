@@ -4,8 +4,13 @@ function freeInputLink(){
 	
 	var projet = "chaine";
 		
-	if (entre > "700") projet = "cdp";
+	// pourquoi je n'ai pas de warning
+	// if (entre > "700") projet = "cdp";
+	// déclaration de variable js
+	// le typage aussi
 	
+	if (inputText > "700") projet = "cdp";
+		
 	var url = "https://jira.els-gestion.eu/browse/sie" + projet + "-" + inputText;
 	
 	console.log(url);

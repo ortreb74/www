@@ -9,17 +9,29 @@
 		<link rel="stylesheet" style="text/css" href="code/setup.css"/>
 	</head>
 	<body>
-		<form>
-			<input type = "text" id = "entre"/></input>
-			<button onclick="freeInputLink();">!</button>
-		</form>
-		<div class = "rounded-box"><a href="https://jira.els-gestion.eu/browse/siechaine-615" target ="_blank">615</a></div>
-		<div><a href="http://localhost:8080/wate/md/rdg615.md" target="_blank">résumé</a> de ce qu'il y a dans jira</div>
-		<p>cd C:\logiciel\<a href="https://www.mongodb.com/download-center/community" target="_blank">mongodb</a>-win32-x86_64-2008plus-2.4.14\bin</p>
-		<p>mongod --dbpath c:/data/mongodb</p>
-		<p>cd /c/bin-local/efl3_metas</p>
-		<p>ant -logfile /c/data/efl3_metas/log/log.txt -DMETA_DIR=. -lib lib</p>
+		<div id = "common">
+			<form>
+				<input type = "text" id = "entre"/></input>
+				<button onclick="freeInputLink();">!</button>
+			</form>
+			<p><a href = "https://outlook.office.com/" target="_blank">Outlook ELS</a></p>
+			<p><a href = "https://jira.els-gestion.eu/secure/RapidBoard.jspa?rapidView=146&quickFilter=515" target="_blank">JIRA</a></p>
+			<p><a href = "https://bitbucket.org"/>bitbucket</a></p>
+		</div>
+		
+		<div class = "cadre" id ="el2">		
+			<div class = "rounded-box"><a href="https://jira.els-gestion.eu/browse/siechaine-615" target ="_blank">615</a></div>
+			<div><a href="http://localhost:8080/wate/md/rdg615.md" target="_blank">résumé</a> de ce qu'il y a dans jira</div>
+			
+			<p><a href ="https://bitbucket.org/elsgestion/sie-efl-chainemeta">le bitbucket de la chaîne méta</a></p> 
+			<p>cd C:\logiciel\<a href="https://www.mongodb.com/download-center/community" target="_blank">mongodb</a>-win32-x86_64-2008plus-2.4.14\bin</p>
+			<p>mongod --dbpath c:/data/mongodb</p>
+			<p>cd /c/bin-local/efl3_metas</p>
+			<p>ant -logfile /c/data/efl3_metas/log/log.txt -DMETA_DIR=. -lib lib</p>
+		</div>
+		
 		<div id = "el2">
+		
 			<div class = "line">
 				<div class = "rounded-box"><a href="https://jira.els-gestion.eu/browse/SIECDP-759" target ="_blank">759</a></div>
 			</div>
@@ -50,11 +62,7 @@
 			<div>export LC_ALL=en_US.UTF-8</div>
 				
 		</div>
-		<div id = "common">		
-			<p><a href = "https://outlook.office.com/" target="_blank">Outlook ELS</a></p>
-			<p><a href = "https://jira.els-gestion.eu" target="_blank">JIRA</a></p>
-			<p><a href = "https://bitbucket.org"/>bitbucket</a></p>
-		</div>
+
 		<div class = "cadre">
 			<p style="text-align:right;margin-top:0px;font-variant: small-caps;">tar</p>
 			<p>tar Pcf template.tar --mode=664 /mac.public/modeles_flashs/<p>
